@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: gilroy;
+ 
+}
+.userdetails>h1{
+  font-size: 2vw;
+  font-family: gilroy;
+  display: inline-block;
+  font-weight: 500;
+}
+.userdetails>h1 span{
+  margin-left: 1vw;
+  font-size: 2vw;
+  font-weight: 500;
+}
+span{
+  font-size: 2vw;
+}
+.age{
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  
+}
+.location ,.phone ,.email ,.gender{
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.main>.button{
+  background-color: rgb(71, 199, 224);
+}
+.main>p{
+  font-size: 4vw;
+  font-family: gilroy;
+  margin-bottom: 4vw;
+}
